@@ -17,5 +17,17 @@ namespace e_shop.Controllers
         {
             return View();
         }
+
+        public ViewResult ContactUs()
+        {
+            var obj = new { Id = 1, name = "Dinuka" };
+
+            return View("ContactUs" , obj);    
+        
+        }
+
+
+
+       
     }
 }
