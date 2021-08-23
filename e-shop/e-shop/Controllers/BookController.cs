@@ -19,7 +19,8 @@ namespace e_shop.Controllers
         {
             var data =  _bookRepository.GetAllBooks();
 
-            return View();
+
+            return View(data);
         }
         
         public string GetBook(int id)

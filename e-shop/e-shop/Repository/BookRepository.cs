@@ -26,11 +26,13 @@ namespace e_shop.Repository
         {
             return new List<BookModel>()
             {
-                new BookModel(){ Id=1, Title="MvC" , Author="Dinuka"},
-                new BookModel(){ Id=2, Title="Dot Net" , Author="Imasha"},
-                new BookModel(){ Id=3, Title="Java" , Author="Sandaru"},
-                new BookModel(){ Id=4, Title="C++" , Author="Chalani"},
-                new BookModel(){ Id=5, Title="Dart" , Author="Achini"},
+                new BookModel(){ Id=1, Title="MvC" , Author="Dinuka" , Description="This is a good Book"},
+                new BookModel(){ Id=2, Title="Dot Net" , Author="Imasha" , Description="This is a good Book"},
+                new BookModel(){ Id=3, Title="Java" , Author="Sandaru", Description="This is a good Book"},
+                new BookModel(){ Id=4, Title="C++" , Author="Chalani", Description="This is a good Book"},
+                new BookModel(){ Id=5, Title="Dart" , Author="Achini", Description="This is a good Book"},
+                new BookModel(){ Id=6, Title="React" , Author="Gayan", Description="This is a good Book"}
+
             };
         }
     }
